@@ -1,0 +1,18 @@
+{
+  "name": "babel-codemod-forter",
+  "version": "1.0.0",
+  "description": "Using Babel to put forter script back together",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/types": "^7.9.0",
+    "jscodeshift": "^0.7.0",
+    "minimist": "^1.2.5"
+  },
+  "scripts": {
+    "pipeline": "npx babel $npm_config_infile -o $npm_config_outfile && node index.js -f $npm_config_outfile"
+  },
+  "author": "Sarah Bird",
+  "license": "MPL-2.0"
+}
