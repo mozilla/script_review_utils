@@ -8,7 +8,7 @@
     "@babel/core": "^7.9.0",
     "@babel/types": "^7.9.0",
     "jscodeshift": "^0.7.0",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   },
   "scripts": {
     "pipeline": "npx babel $npm_config_infile -o $npm_config_outfile && node index.js -f $npm_config_outfile"
